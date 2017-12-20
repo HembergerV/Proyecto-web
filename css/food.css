@@ -1,0 +1,66 @@
+.contenedor-ourfood .comidas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-ourfood .contenedor{
+    position: relative;
+    width: 250px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.image_food{
+    margin: auto;
+    width: 100%;
+}
+.image_food figure{
+    overflow: hidden;
+    position: relative
+}
+.img_ind{
+    width: 250px;
+    height: 190px;
+    margin: auto;
+    transition: all 0.3s;
+}
+.contenedor-ourfood .contenedor:hover .img_ind{
+    transform: scale(1.1,1.1)
+}
+figure figurecaption{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.name_food{
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    margin-left: 40px
+}
+.name_food span{
+    font-weight: bold
+}
+
+.image_animation{
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;
+    
+    transition: all .5s
+}
+.txt_image{
+    position: absolute;
+    top: 50px;
+    margin-left: 10px;
+    color: white;
+    font-size: 17px
+}
+.contenedor-ourfood .contenedor:hover .image_animation{
+    opacity: 1;
+}
