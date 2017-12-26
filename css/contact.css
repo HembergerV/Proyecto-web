@@ -1,0 +1,88 @@
+.contenedor-contacto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.information, .contact{
+    width: 100%;
+    max-width: 400px;
+}
+.title_info{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 18px
+}
+/*----------------------Info----------------------*/
+.information{
+    background: #8cce01;
+    padding: 20px;
+    height: 400px;
+}
+.section_info .section_title{
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+.section_info .section_descript{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px
+}
+.section_info{
+    padding: 10px;
+    margin-bottom: 15px
+}
+.section_info a:hover{
+    font-weight: bold;
+}
+/*----------------------Contact----------------------*/
+.contact{
+    position: relative;
+    height: 400px;
+    background: url(rest2.jpg);
+    background-size: cover;
+}
+.formulario{
+    position: relative;
+    margin: auto;
+    width: 280px;
+    text-align: center;
+    height: 80%;
+    padding-top: 30px
+}
+input{
+    display: block;
+    left: 0px;
+    margin-top: 10px;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+textarea{
+    color: white;
+    position: absolute;
+    resize: none;
+    left: 0px;
+    margin-top: 20px;
+    width: 100%;
+    height: 130px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+::-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}

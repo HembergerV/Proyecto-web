@@ -1,0 +1,17 @@
+commit 251bd894fac43daea578045ae38fb40abebb74ba
+Author: Hemberger Vasquez <hembergervasquez@gmail.com>
+Date:   Fri Dec 22 13:17:15 2017 -0400
+
+    Eliminacion de la opcion 'Testimonials' del menu
+
+commit 1c674c0836fb1138c25cee4abb320ee2f1e0c53a
+Author: Hemberger Vasquez <hembergervasquez@gmail.com>
+Date:   Wed Dec 20 00:55:13 2017 -0400
+
+    Se culmino la seccion 'Our food' del proyecto, con una pequeña animacion al pasar el mouse. Se realizaron pequenos retoques en los archivos: team.css, estilos.css y index.html
+
+commit e2b8c551a1dc08b63b7b049df838de3a19c10d3c
+Author: Hemberger Vasquez <hembergervasquez@gmail.com>
+Date:   Tue Dec 12 17:02:24 2017 -0400
+
+    Inicializando el uso de git en el proyecto

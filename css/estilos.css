@@ -4,20 +4,21 @@
 @import url(main.css);
 @import url(team.css);
 @import url(food.css);
+@import url(contact.css);
 
 *{
     margin: 0px;
     box-sizing:border-box;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: "Open Sans"
+    font-family: "Open Sans", arial
 }
 img{
     display: block;
     width: 100%;
 }
 body{
-    font-family: "Yanone Kaffeesatz"
+    font-family: "Yanone Kaffeesatz", arial
 }
 .header{
     position: fixed;
