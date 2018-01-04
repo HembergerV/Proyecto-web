@@ -1,4 +1,3 @@
-
 /*----------------------About----------------------*/
 .main .title_section{
     text-align: center;
@@ -11,17 +10,31 @@
     color: #B6D77C;
     margin-bottom: 20px;
 }
+.contenedor-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-about .info{
+    margin: 5px
+}
+
 .img_food{
-    display: ;
+    height: 220px
 }
 .main .descript{
     padding: 25px;
 }
 .main .descript,.main .image{
-    width: 240px;
+    max-width: 250px;
+    width: 230px;
     height: 220px;
     margin: auto;
     margin-bottom: 10px
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
 }
 .info:nth-child(1) .descript{
     background: #FF5733
@@ -31,6 +44,9 @@
 }
 .info:nth-child(3) .descript{
     background: #900C3F
+}
+.info:nth-child(4) .descript{
+    background: green
 }
 .main .descript .title_info{
     color: rgb(51,51,51);

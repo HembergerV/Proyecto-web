@@ -33,14 +33,13 @@
     margin-left: -40px;
 }
 .menu_link{
+    display: block;
     left: 0px;
     font-size: 18px;
-    display: block;
     color: white;
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(191,191,191,0.7);
-
 }
 .menu_link:hover{
     background: rgba(91,91,91,0.7);

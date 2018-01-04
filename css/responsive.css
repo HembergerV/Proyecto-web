@@ -1,0 +1,60 @@
+@media(min-width: 480px){
+    /*-----------------Banner-----------------*/
+    .txt_banner{
+        font-size: 18px;
+        top: 19%;
+        width: 100%
+    }
+    .phrase_banner{
+        display: block;
+        margin-top: 5px;
+        font-size: 23px;
+    }
+    
+    /*-----------------About-----------------*/
+    .main .descript,.main .image{
+        width: 48%;
+    }
+    /*-----------------Services-----------------*/
+    .txt_service{
+        margin-top: 22px;
+        width: 95%
+    }
+    /*-----------------Team-----------------*/
+    .miembros .contenedor{
+        width: 49%
+    }
+    /*-----------------Food-----------------*/
+    .contenedor-ourfood .contenedor{
+        width: 48%
+    }
+}
+@media(min-width: 768px){
+    /*-----------------Banner-----------------*/
+    .txt_banner{
+        font-size: 20px;
+        top: 24%;
+    }
+    .phrase_banner{
+        font-size: 25px;
+    }
+    .img_banner{
+        margin-top: -40px
+    }
+    /*-----------------Food-----------------*/
+    .contenedor-ourfood .comidas{
+        margin-bottom: 50px
+    }
+    .contenedor-ourfood .contenedor{
+        width: 48%;
+    }
+    /*-----------------Contac-----------------*/
+    .information, .contact{
+        width: 50%
+    }
+    /*-----------------Menu-----------------*/
+    .menu_link{
+        font-size: 20px;
+        text-align: center;
+    }
+}

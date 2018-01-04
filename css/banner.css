@@ -1,5 +1,8 @@
 .banner .contenedor{
     width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+
 }
 .banner_dott{
     background: url(dott.png)repeat 0px 0px;
@@ -16,6 +19,7 @@
 
 }
 .img_banner{
+    background-image: url(rest2.jpg);
     left: 0px;
     width: 100%;
     display: block

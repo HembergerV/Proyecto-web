@@ -1,9 +1,18 @@
+.miembros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.miembros .contenedor{
+    margin-bottom: 10px;
+    width: 290px;
+    max-width: 300px;
+    background: rgba(0,0,0,0.1)
+}
 .persona{
     position: relative;
-    width: 70%;
+    width: 85%;
     margin: auto;
     max-width: 230px;
-
 }
 .img_persona{
     margin-bottom: 10px;
